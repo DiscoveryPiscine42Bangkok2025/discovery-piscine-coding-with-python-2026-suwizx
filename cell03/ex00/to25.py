@@ -1,0 +1,8 @@
+#!/usr/bin/env python3
+
+prompt = float(input("Enter a number less than 25\n"))
+if prompt > 25:
+    print("Error")
+else:
+   for i in range(int(prompt), 26):
+     print(f"Inside the loop, my variable is {i}")
